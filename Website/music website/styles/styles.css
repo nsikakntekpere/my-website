@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+}
+ul, li{
+    font-size: large;
+    justify-content: space-around;
+    text-align: center;
+    display: flex; 
+}
+a{
+    text-decoration: none;
+}
+:hover{
+    color: brown;
+}
+.hero{
+    background-image: url("../image/music-logo.jpg");
+    height: 70vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.img-container{
+    width: 100%;
+}
+.img-container img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 200px;
+}
+footer{
+    display:contents ;
+    margin: 2vh;
+    height: 5vh;
+}
+h2{
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px 15px;
+    width: 400px;
+    align-self: center;
+}
+
+
+
